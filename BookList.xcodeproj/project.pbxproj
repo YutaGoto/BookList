@@ -14,6 +14,8 @@
 		9B78AB4A1CD3626400F3BA53 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9B78AB481CD3626400F3BA53 /* LaunchScreen.storyboard */; };
 		9B78AB551CD3626400F3BA53 /* BookListTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B78AB541CD3626400F3BA53 /* BookListTests.swift */; };
 		9B78AB601CD3626400F3BA53 /* BookListUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B78AB5F1CD3626400F3BA53 /* BookListUITests.swift */; };
+		9B78AB6F1CD3628D00F3BA53 /* BookListModel.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 9B78AB6D1CD3628D00F3BA53 /* BookListModel.xcdatamodeld */; };
+		9B78AB711CD362CD00F3BA53 /* CoreDataStack.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B78AB701CD362CD00F3BA53 /* CoreDataStack.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +49,8 @@
 		9B78AB5B1CD3626400F3BA53 /* BookListUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BookListUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		9B78AB5F1CD3626400F3BA53 /* BookListUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookListUITests.swift; sourceTree = "<group>"; };
 		9B78AB611CD3626400F3BA53 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9B78AB6E1CD3628D00F3BA53 /* BookListModel.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = BookListModel.xcdatamodel; sourceTree = "<group>"; };
+		9B78AB701CD362CD00F3BA53 /* CoreDataStack.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CoreDataStack.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +107,8 @@
 				9B78AB461CD3626400F3BA53 /* Assets.xcassets */,
 				9B78AB481CD3626400F3BA53 /* LaunchScreen.storyboard */,
 				9B78AB4B1CD3626400F3BA53 /* Info.plist */,
+				9B78AB6D1CD3628D00F3BA53 /* BookListModel.xcdatamodeld */,
+				9B78AB701CD362CD00F3BA53 /* CoreDataStack.swift */,
 			);
 			path = BookList;
 			sourceTree = "<group>";
@@ -258,6 +264,8 @@
 			files = (
 				9B78AB421CD3626400F3BA53 /* ViewController.swift in Sources */,
 				9B78AB401CD3626400F3BA53 /* AppDelegate.swift in Sources */,
+				9B78AB6F1CD3628D00F3BA53 /* BookListModel.xcdatamodeld in Sources */,
+				9B78AB711CD362CD00F3BA53 /* CoreDataStack.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -500,6 +508,19 @@
 			defaultConfigurationIsVisible = 0;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		9B78AB6D1CD3628D00F3BA53 /* BookListModel.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				9B78AB6E1CD3628D00F3BA53 /* BookListModel.xcdatamodel */,
+			);
+			currentVersion = 9B78AB6E1CD3628D00F3BA53 /* BookListModel.xcdatamodel */;
+			path = BookListModel.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = 9B78AB341CD3626400F3BA53 /* Project object */;
 }
